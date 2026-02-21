@@ -1,6 +1,6 @@
 # DDEV giscus-comments
 
-This repository uses GitHub Discussions to store user comments via giscus.
+This repository uses GitHub Discussions to store user comments in DDEV via giscus.
 
 ## Moderation
 
@@ -40,16 +40,16 @@ To moderate comments, visit the [Discussions](https://github.com/ddev/giscus-com
 
     ```js
     <script src="https://giscus.app/client.js"
-            data-repo="ddev/giscus-comments"
-            data-repo-id="R_kgDON5ODtA"
-            data-category="Add-on registry comments"
-            data-category-id="DIC_kwDON5ODtM4Cm8gG"
+            data-repo="<OWNER>/<REPO>"
+            data-repo-id="<REPO_ID>"
+            data-category="<CATEGORY_NAME>"
+            data-category-id="<CATEGORY_ID>"
             data-mapping="title"
             data-strict="0"
-            data-reactions-enabled="1"
+            data-reactions-enabled="0"
             data-emit-metadata="0"
             data-input-position="top"
-            data-theme="light"
+            data-theme="preferred_color_scheme"
             data-lang="en"
             data-loading="lazy"
             crossorigin="anonymous"
